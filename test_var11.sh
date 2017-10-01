@@ -3,10 +3,10 @@
 
 testEquality()
 {
-	sh script11.sh
+	sh script11
 	actual=`cat actual.tsv`
 	expected=`cat expected.tsv`
-  assertEquals "$actual" "$expected"
+  assertEquals "$expected" "$actual"
 }
 
 # load shunit2
