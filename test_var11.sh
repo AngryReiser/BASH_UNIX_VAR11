@@ -3,7 +3,7 @@
 
 testEquality()
 {
-	sh 11.sh
+	sh script11.sh
 	actual=`cat actual.tsv`
 	expected=`cat expected.tsv`
   assertEquals "$actual" "$expected"
